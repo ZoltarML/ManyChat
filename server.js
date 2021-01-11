@@ -64,7 +64,7 @@ io.sockets.on('connection', function (client) {
                         
                     }
                 })
-                reciever !== null ? reciever.emit('receive-message', {date: Date(), message: data.message, senderId: currentConnections[client.id].MLIdentity}) : client.emit('reject', "Player doesn't appear to be connected to ManyChat. If you would like to chat with them privately, you may need to ask them to install ManyChat.");
+                reciever !== null ? reciever.emit('receive-message', {message: data.message, senderId: currentConnections[client.id].MLIdentity}) : client.emit('reject', "Player doesn't appear to be connected to ManyChat. If you would like to chat with them privately, you may need to ask them to install ManyChat.");
                     
             }
         } else {
