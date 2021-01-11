@@ -33,6 +33,7 @@ Congrats! Many Chat has been successfully installed!
 ### Removing Conversation
  * While hovering over a conversation a small `x` will be visible. Upon clicking it will remove a conversation and its history.
  * Note that the other clients history will still be intact.
+ 
 ![](https://gyazo.com/9f98fcf1f4104172f1b84901c395d733.gif)
  
 
@@ -43,7 +44,35 @@ Congrats! Many Chat has been successfully installed!
 ### Send Message
 * Upon right clicking a user a chat bubble icon will appear in their profile.
 * Once clicked a message window will be opened
+
 ![](https://gyazo.com/b9bb8bd1e0bb5b2d4c5c4cf3e7ea5e87.gif)
+
+## Tampermonkey Implementation
+
+### What's Tampermonkey and why do I care?
+* Tampermonkey will allow you to run scripts automatically when loading into a webpage.
+* What this means is that even after a page refresh the script will not go away, thus allowing you to be constantly connected to Many Chat.
+* You can find Tampermonkey [here](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
+
+### How to use Many Chat with Tampermonkey
+* First click `Create a new script` in the Tampermonkey drop down.
+
+![](https://cdn.discordapp.com/attachments/614637022614782000/798112165886296104/unknown.png)
+
+* You are now in the script editor menu.
+* The code in your script editor needs to look exactly the same as the following image for it to work.
+
+![](https://cdn.discordapp.com/attachments/614637022614782000/798113918391681054/unknown.png)
+
+* Once done do `ctrl+s` to save the script.
+* Upon going back to the Tampermonkey dashboard you should see your script toggled on.
+
+![](https://cdn.discordapp.com/attachments/614637022614782000/798114481061232640/unknown.png)
+* Once you refresh the page and wait a few seconds the script will load it self.
+
+
+
+
 
 ## Built With
 
