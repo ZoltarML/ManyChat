@@ -1,7 +1,8 @@
 # Many Chat
   * A fully functional private messaging system for Manyland
-  * I've had this idea for a while just never the backbone to follow through
-  * Anyway, what this essentially does is allow you to privately message anyone who is also <span style="color:red">using</span> this script.
+  * I've had this idea for a while just never the backbone to follow through, but here it is.
+  * I tried to make this look as engrained into the game as possible
+  * Anyway, I hope you enjoy.
   * Made by *Zoltar*
 
 ## Video Guide
@@ -22,6 +23,10 @@ $.getScript('https://cdn.jsdelivr.net/gh/ZoltarML/ManyChat@latest/ManyChatClient
 Congrats! Many Chat has been successfully installed!
 
 ![](https://gyazo.com/e730a6be38dd45e1297396a81992f554.gif)
+
+# **WARNING**
+ * This will *not* work unless the person you are trying to message also has the script running.
+ * If the script is not running on their end your message will be rejected. 
 
 ## Features
 
