@@ -50,7 +50,7 @@ Congrats! Many Chat has been successfully installed!
 ## Tampermonkey Implementation
 
 ### What's Tampermonkey and why do I care?
-* Tampermonkey will allow you to run scripts automatically when loading into a webpage.
+* Tampermonkey is an extension that will allow you to run scripts automatically when loading into a webpage.
 * What this means is that even after a page refresh the script will not go away, thus allowing you to be constantly connected to Many Chat.
 * You can find Tampermonkey [here](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
 
