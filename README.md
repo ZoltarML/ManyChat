@@ -1,7 +1,7 @@
 # Many Chat
   * A fully functional private messaging system for Manyland
   * I've had this idea for a while just never the backbone to follow through
-  * Anyway, what this essentially does is allow you to privately message anyone who is also using this script.
+  * Anyway, what this essentially does is allow you to privately message anyone who is also <span style="color:red">using</span> this script.
   * Made by *Zoltar*
 
 ## Video Guide
