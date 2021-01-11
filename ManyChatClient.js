@@ -267,7 +267,7 @@ async function loadCSS() {
     })
 }
 
-// Getting Parses deobfuscator and Vanilla Terminal
+// Getting Parses deobfuscator and Socket.io
 !async function main() {
     if (typeof io !== 'undefined')
         return
