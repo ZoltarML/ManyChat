@@ -1,7 +1,7 @@
 # Many Chat
-  * A fully functional private messaging system for Manyland
+  * A fully functional private messaging system for Manyland.
   * I've had this idea for a while just never the backbone to follow through, but here it is.
-  * I tried to make this look as engrained into the game as possible
+  * I tried to make this look as engrained into the game as possible.
   * Anyway, I hope you enjoy.
   * Made by *Zoltar*
 
