@@ -7,7 +7,7 @@
 
 ## Video Guide
 
-working on it ;)
+[![](https://cdn.discordapp.com/attachments/614637022614782000/798317177529827388/thumbnail1.png)](https://www.youtube.com/watch?v=wiWOn3hwrrI)
 
 ### Deployment
 
