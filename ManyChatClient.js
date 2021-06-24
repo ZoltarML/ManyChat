@@ -47,8 +47,8 @@ function dragElement(elmnt, selmnt) {
 // Inbox
 let conversationHolder = document.createElement('div');
 conversationHolder.classList.add('conversation-holder');
-conversationHolder.style.top = `${100 * ig.system.scale}px`;
-conversationHolder.style.left = `${300 * ig.system.scale}px`;
+conversationHolder.style.top = `0px`;
+conversationHolder.style.left = `0px`;
 conversationHolder.id = "CVHolder";
 
 let conversationBar = document.createElement('div');
@@ -77,8 +77,8 @@ image1.onclick = function () {
 // Chat Menu
 let chatHolder = document.createElement('div');
 chatHolder.classList.add('chat-holder');
-chatHolder.style.top = `${100 * ig.system.scale}px`;
-chatHolder.style.left = `${300 * ig.system.scale}px`;
+chatHolder.style.top = `0px`;
+chatHolder.style.left = `0px`;
 chatHolder.id = "CHHolder";
 
 let chatBar = document.createElement('div');
