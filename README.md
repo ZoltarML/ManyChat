@@ -16,7 +16,7 @@ Open your browsers **Developer Console** and run the following command.
 
 ```js
 
-$.getScript('https://cdn.jsdelivr.net/gh/ZoltarML/ManyChat@latest/ManyChatClient.js')
+$.getScript('https://cdn.jsdelivr.net/gh/ZoltarML/ManyChat@0.1/ManyChatClient.js')
 
 ```
 
