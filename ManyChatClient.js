@@ -64,7 +64,7 @@ conversationHolder.appendChild(conversationWrapper)
 let image1 = document.createElement('img')
 image1.width = "35";
 image1.height = "35";
-image1.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911026015957045248/f2b902c3b15eeed.png;
+image1.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911026015957045248/f2b902c3b15eeed.png';
 image1.classList.add('exit-button');
 conversationBar.appendChild(image1)
 
@@ -166,7 +166,7 @@ function createEntry(name, id) {
     // Configure
     closeConvo.width = "21";
     closeConvo.height = "21";
-    closeConvo.src = 'http://pixelartmaker.com/art/65d975657775e47.png';
+    closeConvo.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911027064419807292/65d975657775e47.png';
     conversationEntry.appendChild(closeConvo)
     // Change to red x when hovered
     closeConvo.onmouseover = () => { closeConvo.setAttribute('src', 'https://cdn.discordapp.com/attachments/614637022614782000/911026950049525821/a9a48516cc1de12.png') }
