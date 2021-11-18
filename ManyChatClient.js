@@ -64,7 +64,7 @@ conversationHolder.appendChild(conversationWrapper)
 let image1 = document.createElement('img')
 image1.width = "35";
 image1.height = "35";
-image1.src = 'http://pixelartmaker.com/art/f2b902c3b15eeed.png';
+image1.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911026015957045248/f2b902c3b15eeed.png;
 image1.classList.add('exit-button');
 conversationBar.appendChild(image1)
 
@@ -94,7 +94,7 @@ chatHolder.appendChild(chatWrapper)
 let image2 = document.createElement('img')
 image2.width = "35";
 image2.height = "35";
-image2.src = 'http://pixelartmaker.com/art/f2b902c3b15eeed.png';
+image2.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911026015957045248/f2b902c3b15eeed.png';
 image2.classList.add('exit-button2');
 chatBar.appendChild(image2)
 
@@ -108,7 +108,7 @@ image2.onclick = function () {
 let image3 = document.createElement('img')
 image3.width = "45";
 image3.height = "26";
-image3.src = 'http://pixelartmaker.com/art/9b9dc652038a7a1.png';
+image3.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911026619609649219/9b9dc652038a7a1.png';
 image3.classList.add('arrow-button');
 chatBar.appendChild(image3)
 
@@ -169,8 +169,8 @@ function createEntry(name, id) {
     closeConvo.src = 'http://pixelartmaker.com/art/65d975657775e47.png';
     conversationEntry.appendChild(closeConvo)
     // Change to red x when hovered
-    closeConvo.onmouseover = () => { closeConvo.setAttribute('src', 'http://pixelartmaker.com/art/a9a48516cc1de12.png') }
-    closeConvo.onmouseout = () => { closeConvo.setAttribute('src', 'http://pixelartmaker.com/art/65d975657775e47.png') }
+    closeConvo.onmouseover = () => { closeConvo.setAttribute('src', 'https://cdn.discordapp.com/attachments/614637022614782000/911026950049525821/a9a48516cc1de12.png') }
+    closeConvo.onmouseout = () => { closeConvo.setAttribute('src', 'https://cdn.discordapp.com/attachments/614637022614782000/911027064419807292/65d975657775e47.png') }
     // removes entry and clears conversation history
     closeConvo.onclick = () => {
         ig.game.sounds.collapse.play()
@@ -186,9 +186,9 @@ function createEntry(name, id) {
     conversationEntry.onmouseover = () => { closeConvo.style.visibility = 'visible' }
     conversationEntry.onmouseout = () => { closeConvo.style.visibility = 'hidden' }
 
-    conversationEntry.onmousedown = () => { if (closeConvo.src !== 'http://pixelartmaker.com/art/a9a48516cc1de12.png') { closeConvo.style.visibility = 'hidden'; conversationEntry.style.backgroundColor = 'rgba(75, 75, 75, 0.45)'; } }
+    conversationEntry.onmousedown = () => { if (closeConvo.src !== 'https://cdn.discordapp.com/attachments/614637022614782000/911026950049525821/a9a48516cc1de12.png') { closeConvo.style.visibility = 'hidden'; conversationEntry.style.backgroundColor = 'rgba(75, 75, 75, 0.45)'; } }
     conversationEntry.onmouseup = () => {
-        if (closeConvo.src !== 'http://pixelartmaker.com/art/a9a48516cc1de12.png') {
+        if (closeConvo.src !== 'https://cdn.discordapp.com/attachments/614637022614782000/911026950049525821/a9a48516cc1de12.png') {
             conversationEntry.style.backgroundColor = '';
             if (!chatMenuOpen) {
                 conversationHolder.style.visibility = 'hidden';
@@ -382,7 +382,7 @@ function getDistance(x1, y1, x2, y2) {
 
 let img = new Image()
 
-img.src = 'http://pixelartmaker.com/art/05a896880addfd3.png';
+img.src = 'https://cdn.discordapp.com/attachments/614637022614782000/911027270628544552/05a896880addfd3.png';
 ig.game.playerDialog.old_draw = ig.game.playerDialog.draw;
 
 ig.game.playerDialog.draw = function () {
